@@ -1,0 +1,11 @@
+--- arch/arm/mach-s5pv210/clock.c
++++ arch/arm/mach-s5pv210/clock.c
+@@ -377,7 +377,7 @@
+ 		.parent		= &clk_hclk_psys.clk,
+ 		.enable		= s5pv210_clk_ip1_ctrl,
+ 		.ctrlbit	= (1 << 24),
+-		.dev		= &s5pc110_device_onenand,
++		.dev		= &s5p_device_onenand,
+ 	}, {
+ 		.name		= "cfcon",
+ 		.id		= 0,

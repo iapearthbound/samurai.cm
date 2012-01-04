@@ -1,0 +1,8 @@
+make -f scripts/Makefile.build obj=scripts/basic
+rm -f .tmp_quiet_recordmcount
+mkdir -p include/linux include/config
+make -f scripts/Makefile.build obj=scripts/kconfig victory_samuraicm_defconfig
+scripts/kconfig/conf -D arch/arm/configs/victory_samuraicm_defconfig arch/arm/Kconfig
+#
+# configuration written to .config
+#

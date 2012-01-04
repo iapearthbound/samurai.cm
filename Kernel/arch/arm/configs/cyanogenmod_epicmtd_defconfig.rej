@@ -1,0 +1,13 @@
+--- Kernel/arch/arm/configs/cyanogenmod_epicmtd_defconfig
++++ Kernel/arch/arm/configs/cyanogenmod_epicmtd_defconfig
+@@ -1075,8 +1075,8 @@
+ CONFIG_NETDEV_1000=y
+ CONFIG_NETDEV_10000=y
+ CONFIG_WLAN=y
+-CONFIG_WIMAX_VICTORY=m
+-CONFIG_WIMAX_GPIO_VICTORY=m
++CONFIG_WIMAX_VICTORY=n
++CONFIG_WIMAX_GPIO_VICTORY=n
+ CONFIG_BROADCOM_WIFI=m
+ CONFIG_BROADCOM_WIFI_VICTORY=y
+ # CONFIG_BROADCOM_WIFI_ATLAS is not set

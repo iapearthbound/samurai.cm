@@ -1,0 +1,11 @@
+--- Kernel/arch/arm/configs/victory_8G_defconfig
++++ Kernel/arch/arm/configs/victory_8G_defconfig
+@@ -1,7 +1,7 @@
+ #
+ # Automatically generated make config: don't edit
+ # Linux kernel version: 2.6.35.14
+-# Wed Dec 28 16:54:51 2011
++# Thu Dec 29 00:49:32 2011
+ #
+ CONFIG_ARM=y
+ CONFIG_HAVE_PWM=y

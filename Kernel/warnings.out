@@ -1,0 +1,1 @@
+drivers/video/samsung_mipi/Kconfig:66:warning: choice value used outside its choice group
