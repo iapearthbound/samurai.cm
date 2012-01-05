@@ -1,1 +1,467 @@
 drivers/video/samsung_mipi/Kconfig:66:warning: choice value used outside its choice group
+In file included from init/main.c:86:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from include/linux/kernel_sec_common.h:7,
+                 from init/main.c:86:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+arch/arm/common/pl330.c: In function '_loop_ring':
+arch/arm/common/pl330.c:1130: warning: ISO C90 forbids mixed declarations and code
+arch/arm/common/pl330.c:1130: warning: unused variable 'j'
+arch/arm/common/pl330.c:1125: warning: unused variable 'lcnt0'
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from arch/arm/mm/init.c:21:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+arch/arm/mach-s5pv210/clock.c:380: warning: initialization from incompatible pointer type
+In file included from arch/arm/kernel/process.c:41:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from include/linux/kernel_sec_common.h:7,
+                 from arch/arm/kernel/process.c:41:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from arch/arm/kernel/setup.c:36:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+arch/arm/plat-s5p/devs.c:76: warning: 'usb_functions_acm_mtp' defined but not used
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from arch/arm/mach-s5pv210/mach-victory.c:40:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+In file included from arch/arm/mach-s5pv210/mach-victory.c:100:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from arch/arm/mach-s5pv210/mach-victory.c:42:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+arch/arm/mach-s5pv210/mach-victory.c: In function 'ce147_power_en':
+arch/arm/mach-s5pv210/mach-victory.c:1846: warning: unused variable 'bd_level'
+arch/arm/mach-s5pv210/mach-victory.c: In function 'victory_power_off':
+arch/arm/mach-s5pv210/mach-victory.c:2804: warning: unused variable 'reset_mode'
+arch/arm/mach-s5pv210/mach-victory.c: At top level:
+arch/arm/mach-s5pv210/mach-victory.c:3395: warning: function declaration isn't a prototype
+arch/arm/mach-s5pv210/include/mach/system.h:19: warning: 'arch_idle' defined but not used
+arch/arm/mach-s5pv210/mach-victory.c:234: warning: 'uart_switch_init' defined but not used
+arch/arm/mach-s5pv210/mach-victory.c:320: warning: 'nt35580' defined but not used
+arch/arm/mach-s5pv210/mach-victory.c:1878: warning: 'smdkc110_cam1_power' defined but not used
+arch/arm/mach-s5pv210/mach-victory.c:1987: warning: 's5ka3dfx_vga_avdd' defined but not used
+arch/arm/mach-s5pv210/mach-victory.c:2437: warning: 'i2c_devs8' defined but not used
+arch/arm/mach-s5pv210/mach-victory.c:3422: warning: 'k3g_irq_init' defined but not used
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from arch/arm/mm/mmu.c:20:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+arch/arm/plat-s5p/pm.c:28: warning: 's3c_pm_check_resume_pin' defined but not used
+arch/arm/mach-s5pv210/aries-rfkill.c: In function 'bluetooth_set_sleep':
+arch/arm/mach-s5pv210/aries-rfkill.c:216: warning: unused variable 'ret'
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from arch/arm/plat-s5p/hr-time-rtc.c:43:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from arch/arm/mach-s5pv210/aries-btlpm.c:18:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+arch/arm/mach-s5pv210/aries-panel.c:72:36: warning: "CONFIG_MACH_FORTE" is not defined
+arch/arm/mach-s5pv210/max8893_consumer.c: In function 'max8893_consumer_suspend':
+arch/arm/mach-s5pv210/max8893_consumer.c:70: warning: unused variable 'pmic_controling_list'
+arch/arm/mach-s5pv210/max8893_consumer.c:70: warning: unused variable 'i'
+arch/arm/mach-s5pv210/max8893_consumer.c: In function 'max8893_consumer_resume':
+arch/arm/mach-s5pv210/max8893_consumer.c:92: warning: unused variable 'saved_control'
+arch/arm/mach-s5pv210/max8893_consumer.c:92: warning: unused variable 'i'
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from arch/arm/mach-s5pv210/sec_switch.c:42:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+arch/arm/mach-s5pv210/sec_switch.c: In function 'sec_switch_init_work':
+arch/arm/mach-s5pv210/sec_switch.c:226: warning: unused variable 'askon_sel'
+arch/arm/mach-s5pv210/sec_switch.c:226: warning: unused variable 'vtp_sel'
+arch/arm/mach-s5pv210/sec_switch.c:226: warning: unused variable 'mtp_sel'
+arch/arm/mach-s5pv210/sec_switch.c:226: warning: unused variable 'ums_sel'
+arch/arm/mach-s5pv210/sec_switch.c:226: warning: unused variable 'samsung_kies_sel'
+mm/bootmem.c: In function 'alloc_bootmem_core':
+mm/bootmem.c:644: warning: format '%x' expects type 'unsigned int', but argument 2 has type 'long unsigned int'
+arch/arm/plat-samsung/dev-i2c1.c: In function 's3c_i2c1_force_stop':
+arch/arm/plat-samsung/dev-i2c1.c:77: warning: unused variable 'ioarea'
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from arch/arm/mach-s5pv210/setup-sdhci.c:29:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+arch/arm/mach-s5pv210/setup-sdhci.c: In function 's5pv210_setup_sdhci2_cfg_gpio':
+arch/arm/mach-s5pv210/setup-sdhci.c:110: warning: 'return' with a value, in function returning void
+In file included from kernel/sched.c:87:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from include/linux/kernel_sec_common.h:7,
+                 from kernel/sched.c:87:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+kernel/sched.c: In function 'sched_init':
+kernel/sched.c:7531: warning: ISO C90 forbids mixed declarations and code
+kernel/sched.c:7532: warning: initialization from incompatible pointer type
+arch/arm/plat-samsung/pm.c: In function 's3c_pm_enter':
+arch/arm/plat-samsung/pm.c:315: warning: unused variable 'gpio'
+arch/arm/plat-samsung/pm.c: At top level:
+arch/arm/plat-samsung/pm.c:286: warning: 's3c_pm_show_resume_irqs' defined but not used
+In file included from kernel/panic.c:27:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from include/linux/kernel_sec_common.h:7,
+                 from kernel/panic.c:27:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+kernel/panic.c: In function 'panic':
+kernel/panic.c:87: warning: unused variable 'i'
+kernel/panic.c:195: warning: 'noreturn' function does return
+kernel/panic.c: At top level:
+kernel/panic.c:49: warning: 'panic_blink_one_second' defined but not used
+In file included from kernel/irq/handle.c:29:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from include/linux/kernel_sec_common.h:7,
+                 from kernel/irq/handle.c:29:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+In file included from kernel/kernel_sec_debug.c:13:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from include/linux/kernel_sec_common.h:7,
+                 from kernel/kernel_sec_debug.c:13:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+kernel/kernel_sec_debug.c: In function 'kernel_sec_set_upload_cause':
+kernel/kernel_sec_debug.c:224: warning: ISO C90 forbids mixed declarations and code
+kernel/kernel_sec_debug.c: At top level:
+kernel/kernel_sec_debug.c:668: warning: function declaration isn't a prototype
+kernel/kernel_sec_debug.c:718: warning: function declaration isn't a prototype
+kernel/kernel_sec_debug.c: In function 'dump_cpu_stat':
+kernel/kernel_sec_debug.c:827: warning: 'return' with a value, in function returning void
+fs/fat/dir.c: In function 'fat_add_entries':
+fs/fat/dir.c:43: warning: 'de' may be used uninitialized in this function
+fs/fat/dir.c:1241: note: 'de' was declared here
+drivers/cpufreq/cpufreq.c:830: warning: initialization from incompatible pointer type
+drivers/cpufreq/cpufreq.c:831: warning: initialization from incompatible pointer type
+In file included from drivers/input/input.c:31:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from include/linux/kernel_sec_common.h:7,
+                 from drivers/input/input.c:31:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+drivers/input/keyboard/cypress-touchkey.c: In function 'cypress_touchkey_probe':
+drivers/input/keyboard/cypress-touchkey.c:519: warning: label 'err_backlight_on' defined but not used
+drivers/input/keyboard/cypress-touchkey.c: At top level:
+drivers/input/keyboard/cypress-touchkey.c:109: warning: 'i2c_touchkey_write_byte' defined but not used
+drivers/input/keyboard/cypress-touchkey.c: In function 'i2c_touchkey_write.clone.0':
+drivers/input/keyboard/cypress-touchkey.c:107: warning: 'err' may be used uninitialized in this function
+In file included from drivers/input/keyboard/s3c-keypad.c:42:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from arch/arm/mach-s5pv210/include/mach/regs-gpio.h:16,
+                 from drivers/input/keyboard/s3c-keypad.c:30:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+drivers/input/keyboard/s3c-keypad.c: In function 'keypad_scan':
+drivers/input/keyboard/s3c-keypad.c:199: warning: suggest parentheses around '+' inside '<<'
+drivers/input/keyboard/s3c-keypad.c:190: warning: unused variable 'gpio'
+drivers/input/keyboard/s3c-keypad.c: In function 'keypad_timer_handler':
+drivers/input/keyboard/s3c-keypad.c:230: warning: type defaults to 'int' in declaration of 'some_keys_pressed'
+drivers/input/keyboard/s3c-keypad.c: In function 'key_led_control':
+drivers/input/keyboard/s3c-keypad.c:476: warning: format '%d' expects type 'int *', but argument 3 has type 'unsigned char *'
+drivers/input/keyboard/s3c-keypad.c: In function 's3c_keypad_probe':
+drivers/input/keyboard/s3c-keypad.c:572: warning: unused variable 'gpio'
+drivers/input/keyboard/s3c-keypad.c: In function 's3c_keypad_resume':
+drivers/input/keyboard/s3c-keypad.c:818: warning: unused variable 'key_temp_data'
+drivers/input/keyboard/s3c-keypad.c:817: warning: unused variable 'iDev'
+drivers/input/misc/bma023.c: In function 'bma023_measure':
+drivers/input/misc/bma023.c:322: warning: unused variable 'filtered_data'
+drivers/input/misc/bma023.c: At top level:
+drivers/input/misc/bma023.c:199: warning: 'filter_filter' defined but not used
+drivers/input/misc/gpio_event.c: In function 'keyshort_test':
+drivers/input/misc/gpio_event.c:64: warning: too many arguments for format
+drivers/input/misc/gpio_event.c:43: warning: unused variable 'rval'
+drivers/input/misc/gpio_event.c:43: warning: unused variable 'cval'
+drivers/input/misc/gpio_event.c:43: warning: unused variable 'col'
+drivers/input/misc/gp2a.c: In function 'gp2a_setup_irq':
+drivers/input/misc/gp2a.c:480: warning: label 'err_gpio_direction_input' defined but not used
+In file included from drivers/input/touchscreen/qt602240.c:25:
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:457:1: warning: "_3_GPIO_TOUCH_EN" redefined
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:425:1: warning: this is the location of the previous definition
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:458:1: warning: "_3_GPIO_TOUCH_EN_AF" redefined
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:426:1: warning: this is the location of the previous definition
+drivers/input/touchscreen/qt602240.c:66: warning: initialization from incompatible pointer type
+drivers/input/touchscreen/qt602240.c:2613: warning: 'struct i2c_ts_driver' declared inside parameter list
+drivers/input/touchscreen/qt602240.c:2613: warning: its scope is only this definition or declaration, which is probably not what you want
+drivers/input/touchscreen/qt602240.c: In function '_input_report_finger_info':
+drivers/input/touchscreen/qt602240.c:2656: warning: format '%d' expects type 'int', but argument 2 has type 'long unsigned int'
+drivers/input/touchscreen/qt602240.c:2656: warning: format '%d' expects type 'int', but argument 3 has type 'long unsigned int'
+drivers/input/touchscreen/qt602240.c: In function 'get_message':
+drivers/input/touchscreen/qt602240.c:2786: warning: passing argument 1 of '_input_report_finger_info' from incompatible pointer type
+drivers/input/touchscreen/qt602240.c:2613: note: expected 'struct i2c_ts_driver *' but argument is of type 'struct qt602240_data *'
+drivers/input/touchscreen/qt602240.c:2940: warning: passing argument 1 of '_input_report_finger_info' from incompatible pointer type
+drivers/input/touchscreen/qt602240.c:2613: note: expected 'struct i2c_ts_driver *' but argument is of type 'struct qt602240_data *'
+drivers/input/touchscreen/qt602240.c: In function 'qt602240_probe':
+drivers/input/touchscreen/qt602240.c:3308: warning: assignment from incompatible pointer type
+drivers/input/touchscreen/qt602240.c:3282: warning: unused variable 'key'
+drivers/input/touchscreen/qt602240.c:3281: warning: unused variable 'err'
+drivers/input/touchscreen/qt602240.c: In function '_input_report_finger_info':
+drivers/input/touchscreen/qt602240.c:2715: warning: 'scanCode' may be used uninitialized in this function
+drivers/input/touchscreen/qt602240.c:2716: warning: 'action' may be used uninitialized in this function
+drivers/leds/leds-gpio.c: In function 'gpio_led_probe':
+drivers/leds/leds-gpio.c:108: warning: assignment from incompatible pointer type
+drivers/leds/ledtrig-timer.c:38: warning: 'ledtrig_rtc_timer_wakelock' defined but not used
+drivers/leds/ledtrig-notification.c:29: warning: 'ledtrig_rtc_timer_wakelock' defined but not used
+In file included from drivers/level/level.c:10:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from include/linux/kernel_sec_common.h:7,
+                 from drivers/level/level.c:10:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+drivers/media/video/ce147-victory.c: In function 'ce147_set_preflash':
+drivers/media/video/ce147-victory.c:2782: warning: unused variable 'ce147_len_set_flash_manual'
+drivers/media/video/ce147-victory.c:2781: warning: unused variable 'ce147_buf_set_flash_manual'
+drivers/media/video/ce147-victory.c:2778: warning: unused variable 'ce147_len_set_preflash_manual'
+drivers/media/video/ce147-victory.c:2777: warning: unused variable 'ce147_buf_set_preflash_manual'
+drivers/media/video/ce147-victory.c: In function 'camtype_show':
+drivers/media/video/ce147-victory.c:5415: warning: ISO C90 forbids mixed declarations and code
+drivers/media/video/s5ka3dfx.c: In function 's5ka3dfx_set_from_table':
+drivers/media/video/s5ka3dfx.c:319: warning: passing argument 2 of 's5ka3dfx_write_regset_table' discards qualifiers from pointer target type
+drivers/media/video/s5ka3dfx.c:287: note: expected 'struct s5ka3dfx_regset_table *' but argument is of type 'const struct s5ka3dfx_regset_table *'
+drivers/media/video/samsung/fimc/fimc_dev.c: In function 'fimc_irq_cap':
+drivers/media/video/samsung/fimc/fimc_dev.c:408: warning: unused variable 'cfg'
+drivers/media/video/samsung/fimc/fimc_capture.c: In function 'fimc_camera_init':
+drivers/media/video/samsung/fimc/fimc_capture.c:205: warning: unused variable 'fimc'
+drivers/media/video/samsung/fimc/fimc_capture.c: In function 'fimc_streamon_capture':
+drivers/media/video/samsung/fimc/fimc_capture.c:1550: warning: ISO C90 forbids mixed declarations and code
+drivers/media/video/samsung/fimc/fimc_capture.c: At top level:
+drivers/media/video/samsung/fimc/fimc_capture.c:43: warning: 'vtmode' defined but not used
+drivers/media/video/samsung/fimc/fimc_output.c:288: warning: 'fimc_outdev_clear_dst_buf' defined but not used
+drivers/media/video/samsung/fimc/fimc_overlay.c:101: warning: 'fimc_change_fifo_position' defined but not used
+drivers/mfd/max8998.c: In function 'max8998_i2c_probe':
+drivers/mfd/max8998.c:124: warning: unused variable 'pdata'
+drivers/mmc/host/sdhci.c: In function 'sdhci_adjust_cfg':
+drivers/mmc/host/sdhci.c:1324: warning: unused variable 'clock'
+drivers/mmc/host/sdhci.c:1323: warning: unused variable 'ios'
+In file included from drivers/misc/vibetonz/tspdrv.c:91:
+drivers/misc/vibetonz/VibeOSKernelLinuxTime.c: In function 'VibeOSKernelLinuxStartTimer':
+drivers/misc/vibetonz/VibeOSKernelLinuxTime.c:216: warning: ignoring return value of 'down_interruptible', declared with attribute warn_unused_result
+drivers/misc/vibetonz/VibeOSKernelLinuxTime.c:238: warning: ignoring return value of 'down_interruptible', declared with attribute warn_unused_result
+drivers/misc/vibetonz/tspdrv.c: In function 'immTest_store':
+drivers/misc/vibetonz/tspdrv.c:243: warning: unused variable 'arg2'
+drivers/misc/vibetonz/tspdrv.c:243: warning: unused variable 'arg1'
+drivers/misc/vibetonz/tspdrv.c: In function 'vibrator_probe':
+drivers/misc/vibetonz/tspdrv.c:274: warning: suggest parentheses around assignment used as truth value
+drivers/misc/vibetonz/tspdrv.c:268: warning: unused variable 'ret'
+drivers/misc/vibetonz/tspdrv.c: In function 'init_module':
+drivers/misc/vibetonz/tspdrv.c:359: warning: unused variable 'i'
+drivers/misc/vibetonz/tspdrv.c: At top level:
+drivers/misc/vibetonz/ImmVibeSPI.c:285: warning: 'ImmVibeSPI_ForceOut_SetFrequency' defined but not used
+drivers/misc/vibetonz/tspdrv.c:671: warning: 'platform_release' defined but not used
+drivers/misc/apanic.c: In function 'apanic_proc_read':
+drivers/misc/apanic.c:200: warning: assignment makes pointer from integer without a cast
+drivers/misc/sec_jack.c:175: warning: 'determine_jack_type' defined but not used
+drivers/misc/sec_jack.c:468: warning: 'short_send_end_irq_handler' defined but not used
+drivers/misc/fsa9480.c: In function 'FSA9480_Enable_SPK':
+drivers/misc/fsa9480.c:197: warning: unused variable 'data'
+drivers/misc/fsa9480.c:195: warning: unused variable 'client'
+drivers/misc/fsa9480.c: In function 'fsa9480_set_ctl_register':
+drivers/misc/fsa9480.c:157: warning: control reaches end of non-void function
+drivers/mmc/core/sdio.c: In function 'mmc_sdio_suspend':
+drivers/mmc/core/sdio.c:488: warning: unused variable 'i'
+drivers/mmc/core/sdio.c: In function 'mmc_sdio_resume':
+drivers/mmc/core/sdio.c:522: warning: unused variable 'i'
+drivers/mmc/core/sdio.c: At top level:
+drivers/mmc/core/sdio.c:200: warning: 'sdio_disable_wide' defined but not used
+In file included from drivers/onedram/dpram/dpram.c:33:
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:457:1: warning: "_3_GPIO_TOUCH_EN" redefined
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:425:1: warning: this is the location of the previous definition
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:458:1: warning: "_3_GPIO_TOUCH_EN_AF" redefined
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:426:1: warning: this is the location of the previous definition
+In file included from drivers/onedram/dpram/dpram.c:41:
+include/linux/kernel_sec_common.h:46:1: warning: "S3C_PA_WDT" redefined
+In file included from arch/arm/mach-s5pv210/include/mach/regs-gpio.h:16,
+                 from drivers/onedram/dpram/dpram.c:32:
+arch/arm/mach-s5pv210/include/mach/map.h:215:1: warning: this is the location of the previous definition
+drivers/onedram/dpram/dpram.c:52:1: warning: "GPIO_AP_RXD" redefined
+In file included from drivers/onedram/dpram/dpram.c:33:
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:34:1: warning: this is the location of the previous definition
+drivers/onedram/dpram/dpram.c:53:1: warning: "GPIO_AP_RXD_AF" redefined
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:35:1: warning: this is the location of the previous definition
+drivers/onedram/dpram/dpram.c:55:1: warning: "GPIO_AP_TXD" redefined
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:37:1: warning: this is the location of the previous definition
+drivers/onedram/dpram/dpram.c:56:1: warning: "GPIO_AP_TXD_AF" redefined
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:38:1: warning: this is the location of the previous definition
+drivers/onedram/dpram/dpram.c:69:1: warning: "GPIO_PHONE_ACTIVE_AF" redefined
+arch/arm/mach-s5pv210/include/mach/gpio-crespo.h:337:1: warning: this is the location of the previous definition
+drivers/onedram/dpram/dpram.c:239: warning: function declaration isn't a prototype
+drivers/onedram/dpram/dpram.c: In function 'dpram_write':
+drivers/onedram/dpram/dpram.c:492: warning: unused variable 'flags'
+drivers/onedram/dpram/dpram.c: In function 'dpram_read_raw':
+drivers/onedram/dpram/dpram.c:755: warning: format '%x' expects type 'unsigned int', but argument 2 has type 'long unsigned int'
+drivers/onedram/dpram/dpram.c:756: warning: format '%x' expects type 'unsigned int', but argument 2 has type 'long unsigned int'
+drivers/onedram/dpram/dpram.c:793: warning: passing argument 1 of 'check_pdp_table' discards qualifiers from pointer target type
+drivers/onedram/dpram/dpram.c:158: note: expected 'char *' but argument is of type 'const char *'
+drivers/onedram/dpram/dpram.c:820: warning: format '%x' expects type 'unsigned int', but argument 2 has type 'long unsigned int'
+drivers/onedram/dpram/dpram.c:821: warning: format '%x' expects type 'unsigned int', but argument 2 has type 'long unsigned int'
+drivers/onedram/dpram/dpram.c:835: warning: format '%x' expects type 'unsigned int', but argument 2 has type 'long unsigned int'
+drivers/onedram/dpram/dpram.c:836: warning: format '%x' expects type 'unsigned int', but argument 2 has type 'long unsigned int'
+drivers/onedram/dpram/dpram.c:714: warning: unused variable 'i'
+drivers/onedram/dpram/dpram.c:711: warning: unused variable 'pre_hdr_size'
+drivers/onedram/dpram/dpram.c:700: warning: unused variable 'retval_add'
+drivers/onedram/dpram/dpram.c: At top level:
+drivers/onedram/dpram/dpram.c:873: warning: function declaration isn't a prototype
+drivers/onedram/dpram/dpram.c: In function 'dpram_init_and_report':
+drivers/onedram/dpram/dpram.c:1093: warning: unused variable 'init_start'
+drivers/onedram/dpram/dpram.c: In function 'dpram_nvdata_load':
+drivers/onedram/dpram/dpram.c:1235: warning: format '%08x' expects type 'unsigned int', but argument 2 has type 'unsigned char *'
+drivers/onedram/dpram/dpram.c:1253: warning: ignoring return value of 'copy_from_user', declared with attribute warn_unused_result
+drivers/onedram/dpram/dpram.c: In function 'dpram_nvpacket_data_read':
+drivers/onedram/dpram/dpram.c:1266: warning: unused variable 'val'
+drivers/onedram/dpram/dpram.c:1276: warning: ignoring return value of 'copy_to_user', declared with attribute warn_unused_result
+drivers/onedram/dpram/dpram.c:1284: warning: ignoring return value of 'copy_to_user', declared with attribute warn_unused_result
+drivers/onedram/dpram/dpram.c:1296: warning: ignoring return value of 'copy_to_user', declared with attribute warn_unused_result
+drivers/onedram/dpram/dpram.c:1317: warning: ignoring return value of 'copy_to_user', declared with attribute warn_unused_result
+drivers/onedram/dpram/dpram.c:1318: warning: ignoring return value of 'copy_to_user', declared with attribute warn_unused_result
+drivers/onedram/dpram/dpram.c:1325: warning: ignoring return value of 'copy_to_user', declared with attribute warn_unused_result
+drivers/onedram/dpram/dpram.c:1334: warning: ignoring return value of 'copy_to_user', declared with attribute warn_unused_result
+drivers/onedram/dpram/dpram.c: In function 'dpram_tty_ioctl':
+drivers/onedram/dpram/dpram.c:2132: warning: ISO C90 forbids mixed declarations and code
+drivers/onedram/dpram/dpram.c: In function 'cmd_smp_rep_handler':
+drivers/onedram/dpram/dpram.c:2404: warning: ISO C90 forbids mixed declarations and code
+drivers/onedram/dpram/dpram.c: At top level:
+drivers/onedram/dpram/dpram.c:2474: warning: function declaration isn't a prototype
+drivers/onedram/dpram/dpram.c: In function 'kernel_sec_dump_cp_handle2':
+drivers/onedram/dpram/dpram.c:2700: warning: no return statement in function returning non-void
+drivers/onedram/dpram/dpram.c: In function 'check_pdp_table':
+drivers/onedram/dpram/dpram.c:3062: warning: format '%x' expects type 'unsigned int', but argument 4 has type 'struct pdp_info *'
+drivers/onedram/dpram/dpram.c: At top level:
+drivers/onedram/dpram/dpram.c:3310: warning: 'struct platform_Device' declared inside parameter list
+drivers/onedram/dpram/dpram.c:3310: warning: its scope is only this definition or declaration, which is probably not what you want
+drivers/onedram/dpram/dpram.c:3411: warning: initialization from incompatible pointer type
+drivers/onedram/dpram/dpram.c:243: warning: 'boot_complete' defined but not used
+drivers/onedram/dpram/dpram.c:1363: warning: 'dpram_phone_just_power_on' defined but not used
+drivers/onedram/dpram/dpram.c:2393: warning: 'cmd_smp_req_handler' defined but not used
+drivers/power/max17040_battery.c:98: warning: 'max17040_write_reg' defined but not used
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from drivers/power/s5pc110_battery.c:16:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+drivers/regulator/max8893.c: In function 'max8893_ldo_get_voltage':
+drivers/regulator/max8893.c:255: warning: unused variable 'mask'
+drivers/regulator/max8893.c:255: warning: unused variable 'shift'
+drivers/regulator/max8893.c: In function 'max8893_ldo_set_voltage':
+drivers/regulator/max8893.c:286: warning: unused variable 'mask'
+drivers/regulator/max8893.c:286: warning: unused variable 'shift'
+drivers/regulator/max8893.c: In function 'max8893_ldo_set_voltage_direct':
+drivers/regulator/max8893.c:491: warning: unused variable 'mask'
+drivers/regulator/max8893.c:491: warning: unused variable 'shift'
+drivers/regulator/max8893.c: In function 'max8893_pmic_probe':
+drivers/regulator/max8893.c:610: warning: unused variable 'gpio_value'
+drivers/regulator/max8893.c: In function 'max8893_ldo_get_voltage':
+drivers/regulator/max8893.c:273: warning: 'reg' may be used uninitialized in this function
+drivers/regulator/max8893.c: In function 'max8893_ldo_set_voltage':
+drivers/regulator/max8893.c:330: warning: 'reg' may be used uninitialized in this function
+drivers/power/s5pc110_battery.c: In function 's3c_bat_work':
+drivers/power/s5pc110_battery.c:1125: warning: unused variable 'cnt'
+drivers/power/s5pc110_battery.c: In function 'max8998_int_work_func':
+drivers/power/s5pc110_battery.c:1491: warning: unused variable 'data2'
+drivers/power/s5pc110_battery.c: In function 's3c_bat_use_wimax':
+drivers/power/s5pc110_battery.c:1212: warning: control reaches end of non-void function
+In file included from /home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/mach-types.h:1,
+                 from drivers/rtc/rtc-max8998.c:26:
+include/generated/mach-types.h:2953:1: warning: "MACH_TYPE_FORTE" redefined
+include/generated/mach-types.h:234:1: warning: this is the location of the previous definition
+drivers/rtc/rtc-max8998.c:75: warning: 'max8998_rtc_normal_i2c' defined but not used
+drivers/rtc/rtc-max8998.c:76: warning: 'max8998_rtc_probe' defined but not used
+drivers/rtc/rtc-s3c.c: In function 's3c_rtc_suspend':
+drivers/rtc/rtc-s3c.c:757: warning: unused variable 'tm'
+drivers/rtc/rtc-s3c.c: At top level:
+drivers/rtc/rtc-s3c.c:754: warning: 's3c_rtc_delta' defined but not used
+drivers/staging/android/logger.c:91: warning: 'klog_buf' defined but not used
+In file included from drivers/usb/gadget/android.c:60:
+drivers/usb/gadget/composite.c: In function 'composite_switch_work':
+drivers/usb/gadget/composite.c:1438: warning: ISO C90 forbids mixed declarations and code
+drivers/usb/gadget/android.c: At top level:
+drivers/usb/gadget/android.c:169: warning: function declaration isn't a prototype
+In file included from drivers/usb/gadget/f_mass_storage.c:332:
+drivers/usb/gadget/storage_common.c: In function 'fsg_lun_close':
+drivers/usb/gadget/storage_common.c:650: warning: unused variable 'rc'
+drivers/usb/gadget/f_mass_storage.c: At top level:
+drivers/usb/gadget/f_mass_storage.c:339: warning: function declaration isn't a prototype
+drivers/usb/gadget/f_mass_storage.c: In function 'autorun_work':
+drivers/usb/gadget/f_mass_storage.c:858: warning: ISO C90 forbids mixed declarations and code
+drivers/usb/gadget/f_mass_storage.c: In function 'fsg_store_file':
+drivers/usb/gadget/f_mass_storage.c:3140: warning: too many arguments for format
+drivers/usb/gadget/f_mass_storage.c: In function 'send_event_cd_eject':
+drivers/usb/gadget/f_mass_storage.c:853: warning: control reaches end of non-void function
+drivers/usb/gadget/f_mtp_samsung.c: In function 'mtpg_function_setup':
+drivers/usb/gadget/f_mtp_samsung.c:1151: warning: unused variable 'w_index'
+drivers/net/wireless/wimax/control.c: In function 'hwSendControl':
+drivers/net/wireless/wimax/control.c:279: warning: format '%d' expects type 'int', but argument 2 has type 'u_long'
+drivers/net/wireless/wimax/control.c: In function 'controlFindProcessById':
+drivers/net/wireless/wimax/control.c:304: warning: unused variable 'next_process'
+drivers/video/samsung/s3cfb_fimd6x.c: In function 's3cfb_set_alpha_value_width':
+drivers/video/samsung/s3cfb_fimd6x.c:610: warning: control reaches end of non-void function
+drivers/net/wireless/wimaxgpio/wimax_download.c: In function 'Wimax730_probe':
+drivers/net/wireless/wimaxgpio/wimax_download.c:133: warning: label 'error' defined but not used
+drivers/net/wireless/wimaxgpio/wimax_download.c: At top level:
+drivers/net/wireless/wimaxgpio/wimax_download.c:163: warning: initialization from incompatible pointer type
+drivers/video/samsung/s3cfb.c: In function 's3cfb_map_video_memory':
+drivers/video/samsung/s3cfb.c:310: warning: assignment makes pointer from integer without a cast
+drivers/video/samsung/s3cfb.c: In function 's3cfb_sysfs_show_lcd_power':
+drivers/video/samsung/s3cfb.c:1155: warning: 'return' with no value, in function returning non-void
+drivers/video/samsung/s3cfb.c: In function 's3cfb_probe':
+drivers/video/samsung/s3cfb.c:1306: warning: too many arguments for format
+drivers/video/samsung/s3cfb.c: At top level:
+drivers/video/samsung/s3cfb.c:315: warning: 's3cfb_map_default_video_memory' defined but not used
+drivers/net/wireless/wimaxgpio/wimax_i2c.c: In function 'CheckCert':
+drivers/net/wireless/wimaxgpio/wimax_i2c.c:343: warning: unused variable 'i'
+drivers/net/wireless/wimaxgpio/wimax_i2c.c: In function 'CheckCal':
+drivers/net/wireless/wimaxgpio/wimax_i2c.c:361: warning: unused variable 'i'
+drivers/net/wireless/wimaxgpio/wimax_i2c.c: In function 'WiMAX_RraseEEPROM':
+drivers/net/wireless/wimaxgpio/wimax_i2c.c:625: warning: unused variable 'addr'
+drivers/net/wireless/wimaxgpio/wimax_i2c.c: In function 'WIMAX_BootInit':
+drivers/net/wireless/wimaxgpio/wimax_i2c.c:689: warning: 'return' with a value, in function returning void
+drivers/net/wireless/wimaxgpio/wimax_i2c.c: At top level:
+drivers/net/wireless/wimaxgpio/firmware.h:203: warning: 'klib_flength' defined but not used
+drivers/net/wireless/wimax/hardware.c: In function 'hwInit':
+drivers/net/wireless/wimax/hardware.c:379: warning: ISO C90 forbids mixed declarations and code
+drivers/net/wireless/wimax/hardware.c: In function 'GetMacAddress':
+drivers/net/wireless/wimax/hardware.c:527: warning: passing argument 2 of 'sd_send' from incompatible pointer type
+drivers/net/wireless/wimax/download.h:69: note: expected 'unsigned char *' but argument is of type 'struct HW_PRIVATE_PACKET *'
+drivers/net/wireless/wimax/hardware.c: In function 'sd_send':
+drivers/net/wireless/wimax/hardware.c:684: warning: unused variable 'size'
+drivers/net/wireless/wimax/hardware.c:683: warning: unused variable 'buf'
+drivers/net/wireless/wimaxgpio/wimax_i2c.c: In function 'WiMAX_ReadEEPROM':
+drivers/net/wireless/wimaxgpio/wimax_i2c.c:621: warning: the frame size of 4360 bytes is larger than 1024 bytes; see http://go/big_stack_frame
+drivers/net/wireless/wimaxgpio/wimax_i2c.c: In function 'WiMAX_ReadBoot':
+drivers/net/wireless/wimaxgpio/wimax_i2c.c:547: warning: the frame size of 4360 bytes is larger than 1024 bytes; see http://go/big_stack_frame
+In file included from drivers/video/samsung/s3cfb_mdnie.c:95:
+drivers/video/samsung/s3cfb_mdnie_value.h:210: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:210: warning: (near initialization for 'mDNIe_Video[0]')
+drivers/video/samsung/s3cfb_mdnie_value.h:246: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:246: warning: (near initialization for 'mDNIe_Camera[0]')
+drivers/video/samsung/s3cfb_mdnie_value.h:263: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:263: warning: (near initialization for 'mDNIe_Camera_Outdoor_Mode[0]')
+drivers/video/samsung/s3cfb_mdnie_value.h:288: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:288: warning: (near initialization for 'mDNIe_UI[0]')
+drivers/video/samsung/s3cfb_mdnie_value.h:322: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:322: warning: (near initialization for 'mDNIe_Video_Warm[0]')
+drivers/video/samsung/s3cfb_mdnie_value.h:338: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:338: warning: (near initialization for 'mDNIe_Video_WO_Mode[0]')
+drivers/video/samsung/s3cfb_mdnie_value.h:369: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:369: warning: (near initialization for 'mDNIe_Video_Cold[0]')
+drivers/video/samsung/s3cfb_mdnie_value.h:385: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:385: warning: (near initialization for 'mDNIe_Video_CO_Mode[0]')
+drivers/video/samsung/s3cfb_mdnie_value.h:401: warning: missing braces around initializer
+drivers/video/samsung/s3cfb_mdnie_value.h:401: warning: (near initialization for 'mDNIe_Outdoor_Mode[0]')
+drivers/video/samsung/s3cfb_mdnie.c: In function 'mdnieset_ui_file_cmd_show':
+drivers/video/samsung/s3cfb_mdnie.c:556: warning: ISO C90 forbids mixed declarations and code
+drivers/net/wireless/wimax/receive.c: In function 'DL_hwIndicatePacket':
+drivers/net/wireless/wimax/receive.c:116: warning: passing argument 1 of 'kernel_thread' from incompatible pointer type
+/home/earthbound/samurai.cm/Kernel/arch/arm/include/asm/processor.h:103: note: expected 'int (*)(void *)' but argument is of type 'void (*)(void *)'
+drivers/net/wireless/wimax/receive.c:51: warning: unused variable 'tmpRecvDataSize'
+drivers/net/wireless/wimax/receive.c: In function 'processSdioReceiveData':
+drivers/net/wireless/wimax/receive.c:562: warning: format '%d' expects type 'int', but argument 2 has type 'u_long'
+drivers/net/wireless/wimax/wibro_sdio.c: In function 'Adapter_sdio_rx_packet':
+drivers/net/wireless/wimax/wibro_sdio.c:370: warning: ISO C90 forbids mixed declarations and code
+drivers/net/wireless/wimax/wibro_sdio.c: In function 'Adapter_init':
+drivers/net/wireless/wimax/wibro_sdio.c:526: warning: ISO C90 forbids mixed declarations and code
+drivers/net/wireless/wimax/wibro_sdio.c: At top level:
+drivers/net/wireless/wimax/wibro_sdio.c:501: warning: 'Adapter_tx_timeout' defined but not used
+drivers/net/wireless/wimax/wibro_sdio.c:518: warning: 'Adapter_init' defined but not used
+drivers/net/wireless/wimax/wibro_sdio.c:530: warning: 'Adapter_uninit' defined but not used
+drivers/net/wireless/wimax/download.c: In function 'LoadWiMaxImage':
+drivers/net/wireless/wimax/download.c:30: warning: unused variable 'dwImgSize'
+drivers/net/wireless/wimax/download.c: At top level:
+drivers/net/wireless/wimax/firmware.h:206: warning: 'klib_flength' defined but not used
+drivers/net/wireless/wimax/download.c: In function 'SendImageDataPacket':
+drivers/net/wireless/wimax/download.c:227: warning: the frame size of 4096 bytes is larger than 1024 bytes; see http://go/big_stack_frame
+drivers/net/wireless/wimax/download.c: In function 'LoadWiMaxImage':
+drivers/net/wireless/wimax/download.c:64: warning: 'buforder' may be used uninitialized in this function
+drivers/net/wireless/wimax/wibro_sdio.c: In function 'uwbrdev_ioctl':
+drivers/net/wireless/wimax/wibro_sdio.c:864: warning: the frame size of 1520 bytes is larger than 1024 bytes; see http://go/big_stack_frame
